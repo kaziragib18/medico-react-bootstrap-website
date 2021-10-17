@@ -1,0 +1,15 @@
+.items {
+      list-style: none;
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+    .items:hover {
+      color: blue;
+    }
+    .nav__container {
+      background-color: #ffffff;
+    }
+    .logo__img{
+          width: 80%;
+    }
