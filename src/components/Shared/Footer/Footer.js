@@ -10,21 +10,21 @@ const Footer = () => {
                               <div className="col-md-3 ">
                                     <div className="first__part p-2 mt-2">
                                           <img className="logo__img" src={logo} alt="" />
-                                          <h6 className="mt-5">About Us</h6>
+                                          <h6 className="mt-4">About Us</h6>
                                           <p>Lorem ipsum dolor sit amet.</p>
                                          
                                     </div>
                               </div>
                               <div className="col-md-3">
                                     <div className="second__part">
-                                          <h1 className="">Hello world</h1>
+                                          <h1 className="fs-3 ">Subscribe to out Newsletter</h1>
                                           <input
                                                 className="input-field rounded-pill mt-3 px-4"
                                                 type="text"
-                                                placeholder="Hello world"
+                                                placeholder="Enter your email"
                                           />
                                           <br />
-                                          <input className="input-button btn btn-primary rounded-pill px-3 py-1 mt-3 mb-4" type="submit" />
+                                          <input className="input-button btn btn-danger rounded-pill px-3 py-1 mt-3 mb-4" type="submit" />
                                           <br />
                                           <p>
                                                 <span className="m-2 ">icon</span>
@@ -36,7 +36,7 @@ const Footer = () => {
                               </div>
                               <div className="col-md-3">
                                     <div className="third__part">
-                                          <h1>Useful Links</h1>
+                                          <h1 className="fs-3">Useful Links</h1>
                                           <p className="mt-4">Privacy Policy</p>
                                           <p>Blog</p>
                                           <p>FAQ</p>
@@ -45,7 +45,7 @@ const Footer = () => {
                               </div>
                               <div className="col-md-3">
                                     <div className="fourth__part">
-                                          <h1>Contact Us</h1>
+                                          <h1 className="fs-3 mb-4">Contact Us</h1>
                                           <small className="mt-5">Office: 12 Fake Street,New York</small>
                                           <br />
                                           <small className="mt-3">Phone: (08) 8827 633354</small>
